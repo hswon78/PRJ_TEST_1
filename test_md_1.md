@@ -101,8 +101,6 @@ Messages successfully transmitted to your Azure IoT Hub are also printed over yo
 
 Once connected to the IoT Hub, the application transmits periodically messages containing inertial and environmental data read from emulated sensors onboard sS2E
 
-![][6]
-
 ### 3.5 Receive messages from IoT Hub
 
 See Manage IoT Hub to learn how to send cloud-to-device messages from IoT Hub. Messages received by sS2E are printed over serial terminal interface once received. The following cloud-to-device messages are interpreted by the application:
