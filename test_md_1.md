@@ -26,11 +26,11 @@ This document describes how to connect sS2E board together to the Microsoft Azur
 You should have the following items ready before beginning the process.
 
 ## Development environment
-- Installed in your PC : ARM-GCC Compiler
-- Firmware download tool : MS500 Firmware Initializer
+- Installed in your PC : [GCC Compiler][lnk-GCC]
+- Firmware download tool : [MS500 Firmware Initializer][lnk-MS500-FI]
 - A serial terminal installed in your PC (e.g. [TeraTerm][lnk-teraterm] for Windows) 
 - [Setup your IoT hub][lnk-setup-iot-hub]
-- [DeviceExplorer][lnk-dev-exp] (Windows OS only) or [iothub-explorer][lnk-iot-exp] ([iothub-explorer][lnk-iot-exp] is used as reference in this guide, requires Node.js version 4.x or newer)
+- [DeviceExplorer][lnk-dev-exp] (Windows OS only)
 - [Provision your device and get its credentials][lnk-manage-iot-hub]
 
 
@@ -122,29 +122,22 @@ You have now learned how to run a sample application that collects sensor data a
 -   [Device management with iothub-explorer](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-device-management-iothub-explorer)
 
 [lnk-GCC]:https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
-[lnk-MS500-FI]:
+[lnk-MS500-FI]:http://ewbmsvr.synology.me:5000/sharing/pPpTfG5yz
 
 [lnk-setup-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/setup_iothub.md
-[lnk-manage-iot-hub]: ../manage_iot_hub.md
+[lnk-manage-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/manage_iot_hub.md
 [lnk-teraterm]:https://ttssh2.osdn.jp
-[lnk-stlink]:http://www.st.com/content/st_com/en/products/embedded-software/development-tool-software/stsw-link004.html   
-[lnk-minicom]:https://help.ubuntu.com/community/Minicom 
 [lnk-iothub-explorer]:https://github.com/Azure/iothub-explorer
 [lnk-direct-methods]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods
-[lnk-arm-mdk]:http://www2.keil.com/mdk5/
-[lnk-iar-ew]:https://www.iar.com/iar-embedded-workbench/
-[lnk-sw4stm32]:http://www.openstm32.org/HomePage
 
 [lnk-desired-prop]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins
 [lnk-dev-man]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-device-management-overview
-[lnk-fp-cld-azure]:http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-cld-azure1.html
 [lnk-dev-exp]:https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer
 [lnk-iot-exp]:https://github.com/Azure/iothub-explorer 
-[lnk-discovery]:http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/b-l475e-iot01a.html
 
 
 
-[1]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a.png
+[1]: .b-l475e-iot01a.png
 [2]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-connect.png
 [3]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-drag.png
 [4]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-wifi.png
