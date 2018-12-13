@@ -51,7 +51,7 @@ sS2E as shown in the figure below. Then connect the sS2E board to your PC using 
 <a name="Load"></a>
 ### 3.1 Build SDK sample code
 
-1. Download [sS2E SDK Project]. The project contains all the required drivers to use the sS2E board, together with pre-integrated Microsoft Azure IoT SDK.
+1. Download [sS2E SDK Project][lnk-sS2E-SDK-Project]. The project contains all the required drivers to use the sS2E board, together with pre-integrated Microsoft Azure IoT SDK.
 2. Unzip the package. Open one of the pre-configured project files available in MS500_BSP_CMSIS/Application/Azure.
 3. Move to the MS500_BSP_CMSIS/Application/Azure project.
 4. Open file AzureTest.c and update connectionString with the credentials retrieved once completed device registration in IoT Hub as described in [Step 1][lnk-setup-iot-hub]. You have also to set mac-address by replacing DEFAULT_MAC to open file ss2e_init.c for using gateway.
@@ -124,6 +124,8 @@ You have now learned how to run a sample application that collects sensor data a
 -   [Remote monitoring and notifications with ​​Logic ​​Apps](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitoring-notifications-with-azure-logic-apps)
 -   [Device management with iothub-explorer](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-device-management-iothub-explorer)
 
+
+
 [lnk-GCC]:https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
 [lnk-MS500-FI]:http://ewbmsvr.synology.me:5000/sharing/pPpTfG5yz
 [lnk-sS2E-SDK-Project]:http://ewbmsvr.synology.me:5000/sharing/3NaYGU0mb
@@ -132,13 +134,8 @@ You have now learned how to run a sample application that collects sensor data a
 [lnk-manage-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/manage_iot_hub.md
 [lnk-teraterm]:https://ttssh2.osdn.jp
 [lnk-iothub-explorer]:https://github.com/Azure/iothub-explorer
-[lnk-direct-methods]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods
 
-[lnk-desired-prop]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins
-[lnk-dev-man]:https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-device-management-overview
 [lnk-dev-exp]:https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer
-[lnk-iot-exp]:https://github.com/Azure/iothub-explorer 
-
 
 
 [1]: ./sS2E_Board.png
