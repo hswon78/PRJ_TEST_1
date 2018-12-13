@@ -41,7 +41,7 @@ How to install the ARM-GCC environment is not described here. Please refer to th
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 sS2E as shown in the figure below. Then connect the sS2E board to your PC using a mini USB cable.
-![][2]
+![][1]![][2]
 
 
 <a name="Build"></a>
@@ -137,8 +137,8 @@ You have now learned how to run a sample application that collects sensor data a
 
 
 
-[1]: .b-l475e-iot01a.png
-[2]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-connect.png
+[1]: .sS2E_Board.png
+[2]: .miniUSB.png
 [3]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-drag.png
 [4]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-wifi.png
 [5]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-conn-string.png
