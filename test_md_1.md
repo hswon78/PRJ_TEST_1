@@ -61,14 +61,12 @@ sS2E as shown in the figure below. Then connect the sS2E board to your PC using 
 ### 3.2 Upload firmware image
 
 1. Follow the steps below to configure the board.
-  - Set boot mode to 'UART to QSPI Boot'.
-  ![][3]
+  - Set boot mode to 'UART to QSPI Boot'.![][3]
   - Connect your sS2E I/O board and PC using the USB cable. 
   - Turn the sS2E main board and I/O board switches ON.
   - Check the connected COM port on PC.
 
-2.	Run the MS500 Firmware Initializer program.
-![][4]
+2.	Run the MS500 Firmware Initializer program.![][4]
 3.	Check the COM Port and choose the BaudRate..
 4.	Click 'Connect’ to connect the COM Port
 5.	Select the boot mode to 'QSPI'
@@ -98,12 +96,16 @@ Messages successfully transmitted to your Azure IoT Hub are also printed over yo
 
 
 ### 3.4 Send messages to Azure IoT Hub
+
 Once connected to the IoT Hub, the application transmits periodically messages containing inertial and environmental data read from emulated sensors onboard sS2E.
 ![][6]
 
+
+
+
 ### 3.5 Receive messages from IoT Hub
 
-See Manage IoT Hub to learn how to send cloud-to-device messages from IoT Hub. Messages received by sS2E are printed over serial terminal interface once received. The following cloud-to-device messages are interpreted by the application:
+See Manage IoT Hub to learn how to send cloud-to-device messages from IoT Hub. Messages received by sS2E are printed over serial terminal interface once received. The following cloud-to-device messages are interpreted by the application.
 ![][7]
 
 
