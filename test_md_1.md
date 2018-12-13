@@ -98,7 +98,8 @@ Messages successfully transmitted to your Azure IoT Hub are also printed over yo
 
 ### 3.4 Send messages to Azure IoT Hub
 
-Once connected to the IoT Hub, the application transmits periodically messages containing inertial and environmental data read from emulated sensors onboard sS2E.
+Once connected to the IoT Hub, the application transmits periodically messages containing inertial and environmental data read from emulated sensors onboard sS2E. 
+ 
 ![][6]
 
 
