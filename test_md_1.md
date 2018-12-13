@@ -121,8 +121,10 @@ You have now learned how to run a sample application that collects sensor data a
 -   [Remote monitoring and notifications with ​​Logic ​​Apps](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitoring-notifications-with-azure-logic-apps)
 -   [Device management with iothub-explorer](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-device-management-iothub-explorer)
 
+[lnk-GCC]:https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+[lnk-MS500-FI]:
 
-[lnk-setup-iot-hub]: ../setup_iothub.md
+[lnk-setup-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/setup_iothub.md
 [lnk-manage-iot-hub]: ../manage_iot_hub.md
 [lnk-teraterm]:https://ttssh2.osdn.jp
 [lnk-stlink]:http://www.st.com/content/st_com/en/products/embedded-software/development-tool-software/stsw-link004.html   
