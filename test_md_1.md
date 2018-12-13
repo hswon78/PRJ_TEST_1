@@ -6,7 +6,7 @@ Run a simple C sample on sS2E
 -   [Introduction](#Introduction)
 -   [Step 1: Prerequisites](#Prerequisites)
 -   [Step 2: Prepare your Device](#PrepareDevice)
--   [Step 3: Build Run the Sample](#Build)
+-   [Step 3: Build and Run the Sample](#Build)
 -   [Next Steps](#NextSteps)
 
 <a name="Introduction"></a>
@@ -99,7 +99,6 @@ Messages successfully transmitted to your Azure IoT Hub are also printed over yo
 
 Once connected to the IoT Hub, the application transmits periodically messages containing inertial and environmental data read from emulated sensors onboard sS2E.
 ![][6]
-
 
 
 
