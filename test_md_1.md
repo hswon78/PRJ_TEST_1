@@ -51,10 +51,10 @@ sS2E as shown in the figure below. Then connect the sS2E board to your PC using 
 <a name="Load"></a>
 ### 3.1 Build SDK sample code
 
-1. Download sS2E SDK Project. The project contains all the required drivers to use the sS2E board, together with pre-integrated Microsoft Azure IoT SDK.
+1. Download [sS2E SDK Project]. The project contains all the required drivers to use the sS2E board, together with pre-integrated Microsoft Azure IoT SDK.
 2. Unzip the package. Open one of the pre-configured project files available in MS500_BSP_CMSIS/Application/Azure.
 3. Move to the MS500_BSP_CMSIS/Application/Azure project.
-4. Open file AzureTest.c and update connectionString with the credentials retrieved once completed device registration in IoT Hub as described in Step 1. You have also to set mac-address by replacing DEFAULT_MAC to open file ss2e_init.c for using gateway.
+4. Open file AzureTest.c and update connectionString with the credentials retrieved once completed device registration in IoT Hub as described in [Step 1][lnk-setup-iot-hub]. You have also to set mac-address by replacing DEFAULT_MAC to open file ss2e_init.c for using gateway.
 5. Build the project according to the ARM-GCC make. In MS500_BSP_CMSIS/Application/Azure/makefile -> run make
  
 
@@ -67,7 +67,7 @@ sS2E as shown in the figure below. Then connect the sS2E board to your PC using 
   - Turn the sS2E main board and I/O board switches ON.
   - Check the connected COM port on PC.
 
-2.	Run the MS500 Firmware Updater program. 
+2.	Run the MS500 Firmware Initializer program. 
 3.	Check the COM Port and choose the BaudRate..
 4.	Click 'Connect’ to connect the COM Port
 5.	Select the boot mode to 'QSPI'
@@ -123,6 +123,7 @@ You have now learned how to run a sample application that collects sensor data a
 
 [lnk-GCC]:https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
 [lnk-MS500-FI]:http://ewbmsvr.synology.me:5000/sharing/pPpTfG5yz
+[lnk-sS2E-SDK-Project]:http://ewbmsvr.synology.me:5000/sharing/3NaYGU0mb
 
 [lnk-setup-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/setup_iothub.md
 [lnk-manage-iot-hub]:https://github.com/neeraj-khanna/azure-iot-device-ecosystem/blob/master/manage_iot_hub.md
@@ -139,7 +140,7 @@ You have now learned how to run a sample application that collects sensor data a
 
 [1]: ./sS2E_Board.png
 [2]: ./miniUSB.png
-[3]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-drag.png
-[4]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-wifi.png
-[5]: ./media/stmicroelectronics-iot-discovery-kit/b-l475e-iot01a-conn-string.png
+[3]: ./.png
+[4]: ./.png
+[5]: ./.png
 
