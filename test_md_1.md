@@ -61,7 +61,8 @@ sS2E as shown in the figure below. Then connect the sS2E board to your PC using 
 ### 3.2 Upload firmware image
 
 1. Follow the steps below to configure the board.
-  - Set boot mode to 'UART to QSPI Boot'.![][3]
+  - Set boot mode to 'UART to QSPI Boot'.
+  ![][3]
   - Connect your sS2E I/O board and PC using the USB cable. 
   - Turn the sS2E main board and I/O board switches ON.
   - Check the connected COM port on PC.
